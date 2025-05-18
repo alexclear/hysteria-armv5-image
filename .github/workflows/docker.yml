@@ -40,4 +40,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64,linux/arm/v5
-          tags: gitinsky/hysteria:latest,gitinsky/hysteria:v2,gitinsky/hysteria:${{ steps.get_version.outputs.version }}
+          tags: gitinsky/hysteria:latest,gitinsky/hysteria:v2
